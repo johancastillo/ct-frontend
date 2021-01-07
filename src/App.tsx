@@ -2,11 +2,15 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
 // Components
 import Navegation from './components/navegation/Navegation';
+// Pages
+import Home from './pages/home/Home';
+
 
 function App() {
   return (
     <>
       <Router>
+        <Navegation />
         <ul>
           <li>
             <Link to="/">Home</Link>
@@ -23,10 +27,7 @@ function App() {
         </ul>
       
 
-        <Route exact path="/">
-          <Navegation />
-          <h1>Hello World</h1>
-        </Route>
+        <Route exact path="/" component={Home} />
 
         <Route exact path="/products">
           <h1>Products</h1>
