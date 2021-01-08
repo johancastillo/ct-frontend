@@ -4,7 +4,7 @@ import axios from 'axios';
 class Home extends Component {
 
     componentDidMount(){
-        axios.get('localhost:4000/api/products')
+        axios.get('http://localhost:4000/api/products')
         .then(
             response => console.log(response.data)             
         ).catch(
