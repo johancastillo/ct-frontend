@@ -1,9 +1,22 @@
-import React from 'react';
+import React, {Component} from 'react';
+import axios from 'axios';
 
-const Home = () => {
-    return (
-        <h1>Home</h1>
-    )
+class Home extends Component {
+
+    componentDidMount(){
+        axios.get('localhost:4000/api/products')
+        .then(
+            response => console.log(response.data)             
+        ).catch(
+            e => console.log(e)
+        )
+    }
+
+    render(){
+        return (
+            <h1>Home</h1>
+        )
+    }
 }
 
 export default Home;
