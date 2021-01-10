@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link, Switch} from 'react-router-dom';
 // Components
-import Navegation from './components/navegation/Navegation';
+import Navegation from '../components/navegation/Navegation';
 // Pages
-import Home from './pages/home/Home';
-import PageNotFound from './pages/page-not-found/PageNotFound';
+import Home from '../pages/home/Home';
+import PageNotFound from '../pages/page-not-found/PageNotFound';
 
 
 function App() {
