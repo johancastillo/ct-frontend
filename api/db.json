@@ -1,0 +1,36 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Agua",
+      "descripcion": "sdadasd",
+      "estrellas": 5
+    },
+    {
+      "id": 2,
+      "nombre": "Agua morada",
+      "descripcion": "sdadassasasdd",
+      "estrellas": 3
+    },
+    {
+      "id": 4,
+      "nombre": "Agua morada 22222",
+      "descripcion": "sdadassasasdd",
+      "estrellas": 3
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "nombre": "Hogar",
+      "descripcion": "sdadasd",
+      "estrellas": 2
+    },
+    {
+      "id": 2,
+      "nombre": "Alimentos",
+      "descripcion": "sdadasd",
+      "estrellas": 4
+    }
+  ]
+}
