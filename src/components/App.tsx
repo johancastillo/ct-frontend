@@ -1,33 +1,19 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link, Switch} from 'react-router-dom';
 // Components
-import Navegation from './Navegation';
+import Navegation from './Navigation';
 // Pages
 import Home from '../pages/Home';
 import PageNotFound from '../pages/PageNotFound';
 import Admin from '../pages/Admin';
+import Header from './Header';
 
 
 function App() {
   return (
     <>
       <Router>
-        <Navegation />
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/products">Products</Link>
-          </li>
-          <li>
-            <Link to="/about-us">About us</Link>
-          </li>
-          <li>
-            <Link to="/contact-us">Contact</Link>
-          </li>
-        </ul>
-      
+        <Header />
 
         <Switch>
           <Route exact path="/" component={Home} />

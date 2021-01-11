@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import axios from 'axios';
-import Header from '../components/Header';
 import MainContent from '../components/MainContent';
 import Footer from '../components/Footer';
 import AcountSidebar from '../components/AcountSidebar';
@@ -15,7 +14,6 @@ class Home extends Component {
     render(){
         return (
             <>
-              <Header />
               <MainContent />
               <Footer />
               <AcountSidebar />
