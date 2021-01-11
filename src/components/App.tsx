@@ -5,6 +5,7 @@ import Navegation from './Navegation';
 // Pages
 import Home from '../pages/Home';
 import PageNotFound from '../pages/PageNotFound';
+import Admin from '../pages/Admin';
 
 
 function App() {
@@ -30,6 +31,9 @@ function App() {
 
         <Switch>
           <Route exact path="/" component={Home} />
+          
+          <Route exact path="/admin" component={Admin} />
+
 
           <Route exact path="/products">
             <h1>Products</h1>

@@ -1,20 +1,18 @@
 import React, {Component} from 'react';
 import axios from 'axios';
+import Header from '../components/Header';
 
 class Home extends Component {
 
     componentDidMount(){
-        axios.get('http://localhost:4000/api/products')
-        .then(
-            response => console.log(response.data)             
-        ).catch(
-            e => console.log(e)
-        )
+        
     }
 
     render(){
         return (
-            <h1>Home</h1>
+            <>
+              <Header />
+            </>
         )
     }
 }

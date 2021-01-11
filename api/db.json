@@ -1,36 +1,36 @@
 {
-  "productos": [
+  "products": [
     {
       "id": 1,
-      "nombre": "Agua",
-      "descripcion": "sdadasd",
-      "estrellas": 5
+      "title": "Agua",
+      "description": "sdadasd",
+      "stars": 5
     },
     {
       "id": 2,
-      "nombre": "Agua morada",
-      "descripcion": "sdadassasasdd",
-      "estrellas": 3
+      "title": "Agua morada",
+      "description": "sdadassasasdd",
+      "stars": 3
     },
     {
       "id": 4,
-      "nombre": "Agua morada 22222",
-      "descripcion": "sdadassasasdd",
-      "estrellas": 3
+      "title": "Agua morada 22222",
+      "description": "sdadassasasdd",
+      "stars": 3
     }
   ],
-  "categorias": [
+  "categories": [
     {
       "id": 1,
-      "nombre": "Hogar",
-      "descripcion": "sdadasd",
-      "estrellas": 2
+      "title": "Hogar",
+      "description": "sdadasd",
+      "stars": 2
     },
     {
       "id": 2,
-      "nombre": "Alimentos",
-      "descripcion": "sdadasd",
-      "estrellas": 4
+      "title": "Alimentos",
+      "description": "sdadasd",
+      "stars": 4
     }
   ]
 }
