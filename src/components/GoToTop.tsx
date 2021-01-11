@@ -1,0 +1,18 @@
+import React from 'react'
+
+const GoToTop = () => {
+  return (
+    <a className="js-go-to u-go-to" href="#"
+            data-position='{"bottom": 15, "right": 15 }'
+            data-type="fixed"
+            data-offset-top="400"
+            data-compensation="#header"
+            data-show-effect="slideInUp"
+            data-hide-effect="slideOutDown">
+            <span className="fas fa-arrow-up u-go-to__inner"></span>
+    </a>
+  )
+}
+
+export default GoToTop
+
