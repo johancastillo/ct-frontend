@@ -68,7 +68,7 @@ const Slider = () => {
                 <h1 className="font-size-64 text-lh-57 font-weight-light text-white" data-scs-animation-in="fadeInUp">
                   THE NEW <span className="d-block font-size-55">STANDARD</span>
                 </h1>
-                <h6 className="font-size-15 font-weight-bold mb-3" data-scs-animation-in="fadeInUp" data-scs-animation-delay={200}>
+                <h6 className="font-size-15 font-weight-bold mb-3 text-white" data-scs-animation-in="fadeInUp" data-scs-animation-delay={200}>
                   UNDER FAVORABLE SMARTWATCHES
                 </h6>
                 <div className="mb-4" data-scs-animation-in="fadeInUp" data-scs-animation-delay={300}>

@@ -7,6 +7,7 @@ import Home from '../pages/Home';
 import PageNotFound from '../pages/PageNotFound';
 import Admin from '../pages/Admin';
 import Header from './Header';
+import AcountSidebar from './AcountSidebar';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <>
       <Router>
         <Header />
+        <AcountSidebar />
 
         <Switch>
           <Route exact path="/" component={Home} />
