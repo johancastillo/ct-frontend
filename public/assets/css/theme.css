@@ -33113,7 +33113,7 @@ blockquote:not(.blockquote) p {
 /* Navbar Brand */
 .u-header__navbar-brand,
 .u-header__navbar-brand > img {
-  width: 6.375rem;
+  width: 9rem;
 }
 
 @media (min-width: 1200px) {
@@ -36167,7 +36167,10 @@ blockquote:not(.blockquote) p {
 
 @media (max-width: 1199.98px) {
   .bg-primary-down-lg {
-    background-color: #fed700 !important;
+    background-color: #ffff !important;
+    height: 80px;
+    display: flex;
+    align-items: center;
   }
 }
 
