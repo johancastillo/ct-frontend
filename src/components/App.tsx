@@ -1,13 +1,13 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link, Switch} from 'react-router-dom';
-// Components
-import Navegation from './Navigation';
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+
 // Pages
 import Home from '../pages/Home';
 import PageNotFound from '../pages/PageNotFound';
 import Admin from '../pages/Admin';
 import Header from './Header';
 import AcountSidebar from './AcountSidebar';
+import ProductCard from './ProductCard';
 
 
 function App() {
@@ -25,6 +25,11 @@ function App() {
 
           <Route exact path="/products">
             <h1>Products</h1>
+            <ProductCard 
+              image="http://image-galery.herokuapp.com/static/media/2.e07daa38.webp"
+              title="Product one"
+            />
+
           </Route>
 
           <Route exact path="/about-us">

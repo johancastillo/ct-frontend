@@ -507,6 +507,7 @@ const MainContent = () => {
                     </div>
                   </div>
                 </li>
+
                 <li className="col-xl-6 product-item max-width-xl-100 d-md-none d-wd-block product-item remove-divider">
                   <div className="product-item__outer h-100 w-100 prodcut-box-shadow">
                     <div className="product-item__inner bg-white p-3">
@@ -536,6 +537,7 @@ const MainContent = () => {
                 </li>
               </ul>
             </div>
+
             <div className="col-md-6 col-wd-4 products-group-1">
               <ul className="row list-unstyled products-group no-gutters bg-white h-100 mb-0">
                 <li className="col product-item remove-divider">
@@ -610,6 +612,7 @@ const MainContent = () => {
                 </li>
               </ul>
             </div>
+
             <div className="col-md-3 col-wd-4 d-md-flex d-wd-block">
               <ul className="row list-unstyled products-group no-gutters mb-0 flex-xl-column flex-wd-row">
                 <li className="col-xl-6 product-item max-width-xl-100 remove-divider">
@@ -639,6 +642,7 @@ const MainContent = () => {
                     </div>
                   </div>
                 </li>
+
                 <li className="col-xl-6 product-item max-width-xl-100 remove-divider">
                   <div className="product-item__outer h-100 w-100 prodcut-box-shadow">
                     <div className="product-item__inner bg-white p-3">
@@ -666,6 +670,7 @@ const MainContent = () => {
                     </div>
                   </div>
                 </li>
+
                 <li className="col-xl-6 product-item max-width-xl-100 d-md-none d-wd-block product-item remove-divider">
                   <div className="product-item__outer h-100 w-100 prodcut-box-shadow">
                     <div className="product-item__inner bg-white p-3">
@@ -693,6 +698,7 @@ const MainContent = () => {
                     </div>
                   </div>
                 </li>
+
                 <li className="col-xl-6 product-item max-width-xl-100 d-md-none d-wd-block product-item remove-divider">
                   <div className="product-item__outer h-100 w-100 prodcut-box-shadow">
                     <div className="product-item__inner bg-white p-3">
@@ -724,6 +730,7 @@ const MainContent = () => {
             </div>
           </div>
         </div>
+
         <div className="tab-pane fade pt-2" id="Tpills-three-example1" role="tabpanel" aria-labelledby="Tpills-three-example1-tab">
           <div className="row no-gutters">
             <div className="col-md-3 col-wd-4 d-md-flex d-wd-block">
@@ -755,6 +762,7 @@ const MainContent = () => {
                     </div>
                   </div>
                 </li>
+
                 <li className="col-xl-6 product-item max-width-xl-100 remove-divider">
                   <div className="product-item__outer h-100 w-100 prodcut-box-shadow">
                     <div className="product-item__inner bg-white p-3">
@@ -782,6 +790,7 @@ const MainContent = () => {
                     </div>
                   </div>
                 </li>
+
                 <li className="col-xl-6 product-item max-width-xl-100 d-md-none d-wd-block product-item remove-divider">
                   <div className="product-item__outer h-100 w-100 prodcut-box-shadow">
                     <div className="product-item__inner bg-white p-3">
@@ -809,6 +818,7 @@ const MainContent = () => {
                     </div>
                   </div>
                 </li>
+
                 <li className="col-xl-6 product-item max-width-xl-100 d-md-none d-wd-block product-item remove-divider">
                   <div className="product-item__outer h-100 w-100 prodcut-box-shadow">
                     <div className="product-item__inner bg-white p-3">
@@ -838,6 +848,7 @@ const MainContent = () => {
                 </li>
               </ul>
             </div>
+
             <div className="col-md-6 col-wd-4 products-group-1">
               <ul className="row list-unstyled products-group no-gutters bg-white h-100 mb-0">
                 <li className="col product-item remove-divider">
@@ -912,6 +923,7 @@ const MainContent = () => {
                 </li>
               </ul>
             </div>
+
             <div className="col-md-3 col-wd-4 d-md-flex d-wd-block">
               <ul className="row list-unstyled products-group no-gutters mb-0 flex-xl-column flex-wd-row">
                 <li className="col-xl-6 product-item max-width-xl-100 remove-divider">
@@ -941,6 +953,7 @@ const MainContent = () => {
                     </div>
                   </div>
                 </li>
+
                 <li className="col-xl-6 product-item max-width-xl-100 remove-divider">
                   <div className="product-item__outer h-100 w-100 prodcut-box-shadow">
                     <div className="product-item__inner bg-white p-3">
@@ -968,6 +981,7 @@ const MainContent = () => {
                     </div>
                   </div>
                 </li>
+
                 <li className="col-xl-6 product-item max-width-xl-100 d-md-none d-wd-block product-item remove-divider">
                   <div className="product-item__outer h-100 w-100 prodcut-box-shadow">
                     <div className="product-item__inner bg-white p-3">
@@ -995,6 +1009,7 @@ const MainContent = () => {
                     </div>
                   </div>
                 </li>
+
                 <li className="col-xl-6 product-item max-width-xl-100 d-md-none d-wd-block product-item remove-divider">
                   <div className="product-item__outer h-100 w-100 prodcut-box-shadow">
                     <div className="product-item__inner bg-white p-3">
@@ -1026,6 +1041,7 @@ const MainContent = () => {
             </div>
           </div>
         </div>
+
         <div className="tab-pane fade pt-2" id="Tpills-four-example1" role="tabpanel" aria-labelledby="Tpills-four-example1-tab">
           <div className="row no-gutters">
             <div className="col-md-3 col-wd-4 d-md-flex d-wd-block">
@@ -1111,6 +1127,7 @@ const MainContent = () => {
                     </div>
                   </div>
                 </li>
+
                 <li className="col-xl-6 product-item max-width-xl-100 d-md-none d-wd-block product-item remove-divider">
                   <div className="product-item__outer h-100 w-100 prodcut-box-shadow">
                     <div className="product-item__inner bg-white p-3">
@@ -1140,6 +1157,7 @@ const MainContent = () => {
                 </li>
               </ul>
             </div>
+
             <div className="col-md-6 col-wd-4 products-group-1">
               <ul className="row list-unstyled products-group no-gutters bg-white h-100 mb-0">
                 <li className="col product-item remove-divider">
@@ -1214,6 +1232,7 @@ const MainContent = () => {
                 </li>
               </ul>
             </div>
+
             <div className="col-md-3 col-wd-4 d-md-flex d-wd-block">
               <ul className="row list-unstyled products-group no-gutters mb-0 flex-xl-column flex-wd-row">
                 <li className="col-xl-6 product-item max-width-xl-100 remove-divider">
@@ -2422,6 +2441,7 @@ const MainContent = () => {
                 </li>
               </ul>
             </div>
+
             <div className="col-md-3 col-wd-4 d-md-flex d-wd-block">
               <ul className="row list-unstyled products-group no-gutters mb-0 flex-xl-column flex-wd-row">
                 <li className="col-xl-6 product-item max-width-xl-100 remove-divider">
@@ -2451,6 +2471,7 @@ const MainContent = () => {
                     </div>
                   </div>
                 </li>
+
                 <li className="col-xl-6 product-item max-width-xl-100 remove-divider">
                   <div className="product-item__outer h-100 w-100 prodcut-box-shadow">
                     <div className="product-item__inner bg-white p-3">
@@ -2478,6 +2499,7 @@ const MainContent = () => {
                     </div>
                   </div>
                 </li>
+
                 <li className="col-xl-6 product-item max-width-xl-100 d-md-none d-wd-block product-item remove-divider">
                   <div className="product-item__outer h-100 w-100 prodcut-box-shadow">
                     <div className="product-item__inner bg-white p-3">
@@ -2505,6 +2527,7 @@ const MainContent = () => {
                     </div>
                   </div>
                 </li>
+
                 <li className="col-xl-6 product-item max-width-xl-100 d-md-none d-wd-block product-item remove-divider">
                   <div className="product-item__outer h-100 w-100 prodcut-box-shadow">
                     <div className="product-item__inner bg-white p-3">
@@ -2536,6 +2559,7 @@ const MainContent = () => {
             </div>
           </div>
         </div>
+
         <div className="tab-pane fade pt-2" id="Tpills-nine-example1" role="tabpanel" aria-labelledby="Tpills-nine-example1-tab">
           <div className="row no-gutters">
             <div className="col-md-3 col-wd-4 d-md-flex d-wd-block">
@@ -2594,6 +2618,7 @@ const MainContent = () => {
                     </div>
                   </div>
                 </li>
+
                 <li className="col-xl-6 product-item max-width-xl-100 d-md-none d-wd-block product-item remove-divider">
                   <div className="product-item__outer h-100 w-100 prodcut-box-shadow">
                     <div className="product-item__inner bg-white p-3">
@@ -2621,6 +2646,7 @@ const MainContent = () => {
                     </div>
                   </div>
                 </li>
+
                 <li className="col-xl-6 product-item max-width-xl-100 d-md-none d-wd-block product-item remove-divider">
                   <div className="product-item__outer h-100 w-100 prodcut-box-shadow">
                     <div className="product-item__inner bg-white p-3">
@@ -2639,6 +2665,7 @@ const MainContent = () => {
                           </div>
                         </div>
                       </div>
+
                       <div className="product-item__footer">
                         <div className="border-top pt-2 flex-center-between flex-wrap">
                           <a href="../shop/compare.html" className="text-gray-6 font-size-13"><i className="ec ec-compare mr-1 font-size-15" /> Compare</a>
@@ -2650,6 +2677,7 @@ const MainContent = () => {
                 </li>
               </ul>
             </div>
+
             <div className="col-md-6 col-wd-4 products-group-1">
               <ul className="row list-unstyled products-group no-gutters bg-white h-100 mb-0">
                 <li className="col product-item remove-divider">
@@ -2724,6 +2752,7 @@ const MainContent = () => {
                 </li>
               </ul>
             </div>
+
             <div className="col-md-3 col-wd-4 d-md-flex d-wd-block">
               <ul className="row list-unstyled products-group no-gutters mb-0 flex-xl-column flex-wd-row">
                 <li className="col-xl-6 product-item max-width-xl-100 remove-divider">
@@ -2753,6 +2782,7 @@ const MainContent = () => {
                     </div>
                   </div>
                 </li>
+                
                 <li className="col-xl-6 product-item max-width-xl-100 remove-divider">
                   <div className="product-item__outer h-100 w-100 prodcut-box-shadow">
                     <div className="product-item__inner bg-white p-3">
