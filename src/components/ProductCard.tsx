@@ -1,8 +1,7 @@
-import React from 'react'
 
 const ProductCard = ({image, title}:any) => {
   return (
-    <div className="card" style={{ width: '18rem' }}>
+    <div className="card" style={{ width: '100%' }}>
       <img src={image} className="card-img-top" alt="..." />
       <div className="card-body">
         <h4 className="card-text">

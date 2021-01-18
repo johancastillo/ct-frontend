@@ -7,7 +7,7 @@ import PageNotFound from '../pages/PageNotFound';
 import Admin from '../pages/Admin';
 import Header from './Header';
 import AcountSidebar from './AcountSidebar';
-import ProductCard from './ProductCard';
+import Products from '../pages/Products';
 
 
 function App() {
@@ -23,14 +23,7 @@ function App() {
           <Route exact path="/admin" component={Admin} />
 
 
-          <Route exact path="/products">
-            <h1>Products</h1>
-            <ProductCard 
-              image="http://image-galery.herokuapp.com/static/media/2.e07daa38.webp"
-              title="Product one"
-            />
-
-          </Route>
+          <Route exact path="/products" component={Products} />
 
           <Route exact path="/about-us">
             <h1>About us</h1>
