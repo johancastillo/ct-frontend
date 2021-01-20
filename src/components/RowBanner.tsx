@@ -1,7 +1,4 @@
-import React from 'react'
 
-import product1 from './products/1.png'
-import product2 from './products/2.png'
 
 const RowBanner = () => {
   return (
@@ -13,7 +10,7 @@ const RowBanner = () => {
           <a href="../shop/shop.html" className="d-black text-gray-90">
             <div className="min-height-132 py-1 d-flex bg-gray-1 align-items-center">
               <div className="col-6 col-xl-5 col-wd-6 pr-0">
-                <img className="img-fluid p-5" src={product1} alt="Image Description" />
+                <img className="img-fluid p-5" src={"https://image-galery.herokuapp.com/static/media/3.f7d33c03.webp"} alt="Image Description" />
               </div>
               <div className="col-6 col-xl-7 col-wd-6">
                 <div className="mb-2 pb-1 font-size-18 font-weight-light text-ls-n1 text-lh-23">
@@ -34,7 +31,7 @@ const RowBanner = () => {
           <a href="../shop/shop.html" className="d-black text-gray-90">
             <div className="min-height-132 py-1 d-flex bg-gray-1 align-items-center">
               <div className="col-6 col-xl-5 col-wd-6 pr-0">
-                <img className="img-fluid p-5" src={product2} alt="Image Description" />
+                <img className="img-fluid p-5" src={"https://image-galery.herokuapp.com/static/media/5.f9cf23d6.png"} alt="Image Description" />
               </div>
               <div className="col-6 col-xl-7 col-wd-6">
                 <div className="mb-2 pb-1 font-size-18 font-weight-light text-ls-n1 text-lh-23">

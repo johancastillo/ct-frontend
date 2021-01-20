@@ -1,15 +1,12 @@
 import React from 'react'
 
-import banner from './banner.png'
-import product1 from './products/1.png'
-import product2 from './products/2.png'
-import product3 from './products/3.png'
+
 
 
 const Slider = () => {
   return (
     <div className="mb-5">
-    <div className="bg-img-hero" style={{ backgroundImage: `url(${banner})` }}>
+    <div className="bg-img-hero" style={{ backgroundImage: 'url(https://image-galery.herokuapp.com/static/media/banner-principal.59bd0f20.png)' }}>
       <div className="container min-height-420 overflow-hidden">
         <div className="js-slick-carousel u-slick" data-pagi-classes="text-center position-absolute right-0 bottom-0 left-0 u-slick__pagination u-slick__pagination--long justify-content-start mb-3 mb-md-4 offset-xl-3 pl-2 pb-1">
           <div className="js-slide bg-img-hero-center">
@@ -32,7 +29,7 @@ const Slider = () => {
                 </a>
               </div>
               <div className="col-xl-5 col-6  d-flex align-items-center" data-scs-animation-in="zoomIn" data-scs-animation-delay={500}>
-                <img className="img-fluid" src={product1} alt="Image Description" />
+                <img className="img-fluid" src={"https://image-galery.herokuapp.com/static/media/2.e07daa38.webp"} alt="Image Description" />
               </div>
             </div>
           </div>
@@ -57,7 +54,7 @@ const Slider = () => {
                 </a>
               </div>
               <div className="col-xl-5 col-6  d-flex align-items-center" data-scs-animation-in="fadeInUp" data-scs-animation-delay={500}>
-                <img className="img-fluid" src={product2} alt="Image Description" />
+                <img className="img-fluid" src={"https://image-galery.herokuapp.com/static/media/1.691fd698.webp"} alt="Image Description" />
               </div>
             </div>
           </div>
@@ -82,7 +79,7 @@ const Slider = () => {
                 </a>
               </div>
               <div className="col-xl-5 col-6  d-flex align-items-center" data-scs-animation-in="fadeInRight" data-scs-animation-delay={500}>
-                <img className="img-fluid" src={product3} alt="Image Description" />
+                <img className="img-fluid" src={"https://image-galery.herokuapp.com/static/media/3.f7d33c03.webp"} alt="Image Description" />
               </div>
             </div>
           </div>
