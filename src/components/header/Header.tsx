@@ -1,7 +1,8 @@
 import React from 'react'
-import Navigation from './Navigation'
-import SecondaryMenu from './SecondaryMenu'
-import TopBar from './TopBar'
+// Components
+import Navigation from '../navigation/Navigation'
+import SecondaryMenu from '../secondary-menu/SecondaryMenu'
+import TopBar from '../top-bar/TopBar'
 
 const Header = () => {
     return (

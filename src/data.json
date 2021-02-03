@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "title": "Product one",
+    "description": "adadadadadad",
+    "image": "http://image-galery.herokuapp.com/static/media/2.e07daa38.webp",
+    "stars": 4.5,
+    "brand": "Gordons",
+    "category": "Licores",
+    "price": 35
+  },
+  {
+    "id": 2,
+    "title": "Licor 2",
+    "description": "Este es un licor",
+    "image": "http://image-galery.herokuapp.com/static/media/2.e07daa38.webp",
+    "stars": 5,
+    "brand": "Gordons light",
+    "category": "Licores",
+    "price": 100
+  },
+  {
+    "id": 1,
+    "title": "Product one",
+    "description": "adadadadadad",
+    "image": "http://image-galery.herokuapp.com/static/media/2.e07daa38.webp",
+    "stars": 4.5,
+    "brand": "Gordons",
+    "category": "Licores",
+    "price": 35
+  },
+  {
+    "id": 1,
+    "title": "Product one",
+    "description": "adadadadadad",
+    "image": "http://image-galery.herokuapp.com/static/media/2.e07daa38.webp",
+    "stars": 4.5,
+    "brand": "Gordons",
+    "category": "Licores",
+    "price": 35
+  },
+  {
+    "id": 1,
+    "title": "Product one",
+    "description": "adadadadadad",
+    "image": "http://image-galery.herokuapp.com/static/media/2.e07daa38.webp",
+    "stars": 4.5,
+    "brand": "Gordons",
+    "category": "Licores",
+    "price": 35
+  },
+  {
+    "id": 1,
+    "title": "Product one",
+    "description": "adadadadadad",
+    "image": "http://image-galery.herokuapp.com/static/media/2.e07daa38.webp",
+    "stars": 4.5,
+    "brand": "Gordons",
+    "category": "Licores",
+    "price": 35
+  },
+  {
+    "id": 1,
+    "title": "Product one",
+    "description": "adadadadadad",
+    "image": "http://image-galery.herokuapp.com/static/media/2.e07daa38.webp",
+    "stars": 4.5,
+    "brand": "Gordons",
+    "category": "Licores",
+    "price": 35
+  },
+  {
+    "id": 1,
+    "title": "Product one",
+    "description": "adadadadadad",
+    "image": "http://image-galery.herokuapp.com/static/media/2.e07daa38.webp",
+    "stars": 4.5,
+    "brand": "Gordons",
+    "category": "Licores",
+    "price": 35
+  },
+  {
+    "id": 1,
+    "title": "Product one",
+    "description": "adadadadadad",
+    "image": "http://image-galery.herokuapp.com/static/media/2.e07daa38.webp",
+    "stars": 4.5,
+    "brand": "Gordons",
+    "category": "Licores",
+    "price": 35
+  },
+  {
+    "id": 1,
+    "title": "Product one",
+    "description": "adadadadadad",
+    "image": "http://image-galery.herokuapp.com/static/media/2.e07daa38.webp",
+    "stars": 4.5,
+    "brand": "Gordons",
+    "category": "Licores",
+    "price": 35
+  },
+  {
+    "id": 1,
+    "title": "Product one",
+    "description": "adadadadadad",
+    "image": "http://image-galery.herokuapp.com/static/media/2.e07daa38.webp",
+    "stars": 4.5,
+    "brand": "Gordons",
+    "category": "Licores",
+    "price": 35
+  }
+]

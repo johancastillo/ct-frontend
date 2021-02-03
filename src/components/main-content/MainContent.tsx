@@ -1,9 +1,9 @@
-import React from 'react'
-import NavClassic from './NavClassic'
-import PromotionCard from './PromotionCard'
-import RowBanner from './RowBanner'
-import Slider from './Slider'
-import TabContent from './TabContent'
+
+import NavClassic from '../nav-classic/NavClassic'
+import PromotionCard from '../promotion-card/PromotionCard'
+import RowBanner from '../row-banner/RowBanner'
+import Slider from '../slider/Slider'
+import TabContent from '../tab-content/TabContent'
 
 const MainContent = () => {
   return (

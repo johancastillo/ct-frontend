@@ -13,10 +13,12 @@ const SecondaryMenu = () => {
               <div className="card border-0">
                 <div className="card-header card-collapse border-0" id="basicsHeadingOne">
                   <button type="button" className="btn-link btn-remove-focus btn-block d-flex card-btn py-3 text-lh-1 px-4 shadow-none btn-primary rounded-top-lg border-0 font-weight-bold text-gray-90" data-toggle="collapse" data-target="#basicsCollapseOne" aria-expanded="true" aria-controls="basicsCollapseOne">
+
                     <span className="ml-0 text-gray-90 mr-2">
                       <span className="fa fa-list-ul" />
                     </span>
-                    <span className="pl-1 text-gray-90">All Departments</span>
+
+                    <span className="pl-1 text-gray-90">Departmentos</span>
                   </button>
                 </div>
                 <div id="basicsCollapseOne" className="collapse show vertical-menu" aria-labelledby="basicsHeadingOne" data-parent="#basicsAccordion">
@@ -25,14 +27,55 @@ const SecondaryMenu = () => {
                       <div id="navBar" className="collapse navbar-collapse u-header__navbar-collapse">
                         <ul className="navbar-nav u-header__navbar-nav">
                           <li className="nav-item u-header__nav-item" data-event="hover" data-position="left">
-                            <a href="#" className="nav-link u-header__nav-link font-weight-bold">Value of the Day</a>
+                            <a href="#" className="nav-link u-header__nav-link font-weight-bold">Todo ofertas</a>
                           </li>
+
+                          {/* Nav Item MegaMenu */}
+                          <li className="nav-item hs-has-mega-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut" data-position="left">
+                            <a id="basicMegaMenu" className="nav-link u-header__nav-link u-header__nav-link-toggle font-weight-bold" href="javascript:;" aria-haspopup="true" aria-expanded="false">
+                              Servicios
+                            </a>
+                            {/* Nav Item - Mega Menu */}
+                            <div className="hs-mega-menu vmm-tfw u-header__sub-menu" aria-labelledby="basicMegaMenu">
+                              <div className="vmm-bg">
+                                <img className="img-fluid" src="../../assets/img/500X400/img1.png" alt="Image Description" />
+                              </div>
+                              <div className="row u-header__mega-menu-wrapper">
+                                <div className="col mb-3 mb-sm-0">
+                                  <span className="u-header__sub-menu-title">Computers &amp; Accessories</span>
+                                  <ul className="u-header__sub-menu-nav-group mb-3">
+                                    <li><a className="nav-link u-header__sub-menu-nav-link" href="#">All Computers &amp; Accessories</a></li>
+                                    <li><a className="nav-link u-header__sub-menu-nav-link" href="#">Laptops, Desktops &amp; Monitors</a></li>
+                                    <li><a className="nav-link u-header__sub-menu-nav-link" href="#">Printers &amp; Ink</a></li>
+                                    <li><a className="nav-link u-header__sub-menu-nav-link" href="#">Networking &amp; Internet Devices</a></li>
+                                    <li><a className="nav-link u-header__sub-menu-nav-link" href="#">Computer Accessories</a></li>
+                                    <li><a className="nav-link u-header__sub-menu-nav-link" href="#">Software</a></li>
+                                    <li>
+                                      <a className="nav-link u-header__sub-menu-nav-link u-nav-divider border-top pt-2 flex-column align-items-start" href="#">
+                                        <div>All Electronics</div>
+                                        <div className="u-nav-subtext font-size-11 text-gray-30">Discover more products</div>
+                                      </a>
+                                    </li>
+                                  </ul>
+                                </div>
+                                <div className="col mb-3 mb-sm-0">
+                                  <span className="u-header__sub-menu-title">Office &amp; Stationery</span>
+                                  <ul className="u-header__sub-menu-nav-group">
+                                    <li>
+                                      <a className="nav-link u-header__sub-menu-nav-link" href="#">All Office &amp; Stationery</a>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                            {/* End Nav Item - Mega Menu */}
+                          </li>
+                          {/* End Nav Item MegaMenu*/}
+
                           <li className="nav-item u-header__nav-item" data-event="hover" data-position="left">
-                            <a href="#" className="nav-link u-header__nav-link font-weight-bold">Top 100 Offers</a>
+                            <a href="#" className="nav-link u-header__nav-link font-weight-bold">Nuevos lanzamientos</a>
                           </li>
-                          <li className="nav-item u-header__nav-item" data-event="hover" data-position="left">
-                            <a href="#" className="nav-link u-header__nav-link font-weight-bold">New Arrivals</a>
-                          </li>
+
                           {/* Nav Item MegaMenu */}
                           <li className="nav-item hs-has-mega-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut" data-position="left">
                             <a id="basicMegaMenu" className="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false">Computers &amp; Accessories</a>
@@ -72,6 +115,7 @@ const SecondaryMenu = () => {
                             {/* End Nav Item - Mega Menu */}
                           </li>
                           {/* End Nav Item MegaMenu*/}
+
                           {/* Nav Item MegaMenu */}
                           <li className="nav-item hs-has-mega-menu u-header__nav-item" data-event="hover" data-position="left">
                             <a id="basicMegaMenu1" className="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false">Cameras, Audio &amp; Video</a>
@@ -287,7 +331,7 @@ const SecondaryMenu = () => {
                           <li className="nav-item hs-has-sub-menu u-header__nav-item" data-event="click" data-animation-in="slideInUp" data-animation-out="fadeOut" data-position="left">
                             <a id="homeMegaMenu" className="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="homeSubMenu">Accessories</a>
                             {/* Home - Submenu */}
-                            <ul id="homeSubMenu" className="hs-sub-menu u-header__sub-menu animated hs-position-left fadeOut" aria-labelledby="homeMegaMenu" style={{minWidth: 230, display: 'none'}}>
+                            <ul id="homeSubMenu" className="hs-sub-menu u-header__sub-menu animated hs-position-left fadeOut" aria-labelledby="homeMegaMenu" style={{ minWidth: 230, display: 'none' }}>
                               {/* Home-v1 */}
                               <li className="hs-has-sub-menu">
                                 <a className="nav-link u-header__sub-menu-nav-link " href="index.html">Home-v1</a>

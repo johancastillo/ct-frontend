@@ -1,9 +1,9 @@
 import React from 'react';
 import logo from './logo.svg'
 import {Link} from 'react-router-dom'
-import HeaderSidebar from './HeaderSidebar';
-import SearchBar from './SearchBar';
-import HeaderIcons from './HeaderIcons';
+import HeaderSidebar from '../header-sidebar/HeaderSidebar';
+import SearchBar from '../search-bar/SearchBar';
+import HeaderIcons from '../header-icons/HeaderIcons';
 
 const Navigation = () => {
     return ( 
