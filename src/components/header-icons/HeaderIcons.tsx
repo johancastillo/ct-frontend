@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 
 const HeaderIcons = () => {
@@ -24,39 +25,41 @@ const HeaderIcons = () => {
             </div>
             {/* End Input */}
           </li>
-          
+
           {/* End Search */}
-          <li className="col d-none d-xl-block">
-            <a href="../shop/compare.html" className="text-gray-90" data-toggle="tooltip" data-placement="top" title="Compare">
-              <i className="font-size-22 ec ec-compare" />
-            </a>
-          </li>
+
+  
 
           <li className="col d-none d-xl-block">
-            <a href="../shop/wishlist.html" className="text-gray-90" data-toggle="tooltip" data-placement="top" title="Favorites">
-              <i className="font-size-22 ec ec-favorites" />
-            </a>
+            <Link to="/favoritos" className="text-gray-90" data-toggle="tooltip" data-placement="top" title="Favoritos">
+              <i className="font-size-22 icon-heart-void" />
+            </Link>
           </li>
 
           <li className="col d-xl-none px-2 px-sm-3">
-            <a href="../shop/my-account.html" className="text-gray-90" data-toggle="tooltip" data-placement="top" title="My Account">
-              <i className="font-size-22 ec ec-user" />
-            </a>
+            <Link to="/cuenta" className="text-gray-90" data-toggle="tooltip" data-placement="top" title="Mi cuenta">
+              <i className="font-size-22 icon-user" />
+            </Link>
           </li>
 
           <li className="col pr-xl-0 px-2 px-sm-3 d-xl-none">
-            <a href="../shop/cart.html" className="text-gray-90 position-relative d-flex " data-toggle="tooltip" data-placement="top" title="Cart">
-              <i className="font-size-22 ec ec-shopping-bag" />
+            <Link to="/" className="text-gray-90 position-relative d-flex " data-toggle="tooltip" data-placement="top" title="Carrito">
+              <i className="font-size-22 icon-cart" />
               <span className="bg-lg-down-black width-22 height-22 bg-primary position-absolute d-flex align-items-center justify-content-center rounded-circle left-12 top-8 font-weight-bold font-size-12">2</span>
-              <span className="d-none d-xl-block font-weight-bold font-size-16 text-gray-90 ml-3">$1785.00</span>
-            </a>
+              <span className="d-none d-xl-block font-weight-bold font-size-16 text-gray-90 ml-3">
+                $1785.00
+              </span>
+            </Link>
           </li>
 
           <li className="col pr-xl-0 px-2 px-sm-3 d-none d-xl-block">
-            <div id="basicDropdownHoverInvoker" className="text-gray-90 position-relative d-flex " data-toggle="tooltip" data-placement="top" title="Cart" aria-controls="basicDropdownHover" aria-haspopup="true" aria-expanded="false" data-unfold-event="click" data-unfold-target="#basicDropdownHover" data-unfold-type="css-animation" data-unfold-duration={300} data-unfold-delay={300} data-unfold-hide-on-scroll="true" data-unfold-animation-in="slideInUp" data-unfold-animation-out="fadeOut">
-              <i className="font-size-22 ec ec-shopping-bag" />
+            <div id="basicDropdownHoverInvoker" className="text-gray-90 position-relative d-flex " data-toggle="tooltip" data-placement="top" title="Carrito" aria-controls="basicDropdownHover" aria-haspopup="true" aria-expanded="false" data-unfold-event="click" data-unfold-target="#basicDropdownHover" data-unfold-type="css-animation" data-unfold-duration={300} data-unfold-delay={300} data-unfold-hide-on-scroll="true" data-unfold-animation-in="slideInUp" data-unfold-animation-out="fadeOut">
+              <i className="font-size-22 icon-cart" />
               <span className="bg-lg-down-black width-22 height-22 bg-primary position-absolute d-flex align-items-center justify-content-center rounded-circle left-12 top-8 font-weight-bold font-size-12">2</span>
-              <span className="d-none d-xl-block font-weight-bold font-size-16 text-gray-90 ml-3">$1785.00</span>
+              
+              <span className="d-none d-xl-block font-weight-bold font-size-16 text-gray-90 ml-3">
+                $1785.00
+              </span>
             </div>
             
             <div id="basicDropdownHover" className="cart-dropdown dropdown-menu dropdown-unfold border-top border-top-primary mt-3 border-width-2 border-left-0 border-right-0 border-bottom-0 left-auto right-0" aria-labelledby="basicDropdownHoverInvoker">

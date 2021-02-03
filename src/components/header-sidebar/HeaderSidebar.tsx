@@ -30,19 +30,25 @@ const HeaderSidebar = () => {
 
                   {/* Value of the Day */}
                   <li>
-                    <a className="u-header-collapse__nav-link font-weight-bold" href="#">Value of the Day</a>
+                    <Link to="/" className="u-header-collapse__nav-link font-weight-bold">
+                      Value of the Day
+                    </Link>
                   </li>
                   {/* End Value of the Day */}
 
                   {/* Top 100 Offers */}
                   <li>
-                    <a className="u-header-collapse__nav-link font-weight-bold" href="#">Top 100 Offers</a>
+                    <Link to="/" className="u-header-collapse__nav-link font-weight-bold">
+                      Top 100 Offers
+                    </Link>
                   </li>
                   {/* End Top 100 Offers */}
 
                   {/* New Arrivals */}
                   <li>
-                    <a className="u-header-collapse__nav-link font-weight-bold" href="#">New Arrivals</a>
+                    <Link to="/" className="u-header-collapse__nav-link font-weight-bold">
+                      New Arrivals
+                    </Link>
                   </li>
                   {/* End New Arrivals */}
 
@@ -51,16 +57,26 @@ const HeaderSidebar = () => {
 
                     <a className="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" data-target="#headerSidebarComputersCollapse" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="headerSidebarComputersCollapse">
                       Pages
-                            </a>
+                    </a>
 
                     <div id="headerSidebarComputersCollapse" className="collapse" data-parent="#headerSidebarContent">
                       <ul className="u-header-collapse__nav-list">
                         <li>
-                          <Link to="/"><a className="u-header-collapse__submenu-nav-link" href="#">Home</a></Link>
+                            <Link to="/" className="u-header-collapse__submenu-nav-link">
+                              Home
+                            </Link>
                         </li>
 
                         <li>
-                          <Link to="/products"><a className="u-header-collapse__submenu-nav-link" href="#">Products</a></Link>
+                            <Link to="/home" className="u-header-collapse__submenu-nav-link">
+                              Home Two
+                            </Link>
+                        </li>
+
+                        <li>
+                            <Link to="/products" className="u-header-collapse__submenu-nav-link">
+                              Products
+                            </Link>
                         </li>
 
                         <li><a className="u-header-collapse__submenu-nav-link" href="#">Laptops, Desktops &amp; Monitors</a></li>

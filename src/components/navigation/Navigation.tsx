@@ -15,6 +15,7 @@ const Navigation = () => {
 
             {/* Nav */}
             <nav className="navbar navbar-expand u-header__navbar py-0 justify-content-xl-between max-width-270 min-width-270">
+              
               {/* Logo */}
               <Link to="/" className="order-1 order-xl-0 navbar-brand u-header__navbar-brand u-header__navbar-brand-center" aria-label="Electro">
                 <img src={logo} alt="logo" />
@@ -28,6 +29,7 @@ const Navigation = () => {
                 </span>
               </button>
               {/* End Fullscreen Toggle Button */}
+              
             </nav>
             {/* End Nav */}
             

@@ -70,7 +70,7 @@ const ProductCard = ({ productID, title, image, stars, category, price, brand, d
           <div className="price">
 
             <button type="button" className="btn btn-outline-dark">
-              <span className="icon-cart"></span>
+              <span className="icon-cart" style={{fontSize: '20px'}}></span>
               <span className="price" style={{ marginLeft: '8px' }}>{`$${price} USD`} </span>
             </button>
 
