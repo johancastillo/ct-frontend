@@ -6,8 +6,9 @@ const Products = () => {
   const [products, setProducts] = useState(data)
 
   return (
-    <div className="products-page">
+    <div className="container mt-4">
       <div className="gallery">
+
         {
           products.map(product => {
             return (

@@ -9,19 +9,22 @@ const HeaderIcons = () => {
           {/* Search */}
           <li className="col d-xl-none px-2 px-sm-3 position-static">
             <a id="searchClassicInvoker" className="font-size-22 text-gray-90 text-lh-1 btn-text-secondary" href="javascript:;" role="button" data-toggle="tooltip" data-placement="top" title="Search" aria-controls="searchClassic" aria-haspopup="true" aria-expanded="false" data-unfold-target="#searchClassic" data-unfold-type="css-animation" data-unfold-duration={300} data-unfold-delay={300} data-unfold-hide-on-scroll="true" data-unfold-animation-in="slideInUp" data-unfold-animation-out="fadeOut">
-              <span className="ec ec-search" />
+              <span className="icon-search" />
             </a>
             {/* Input */}
             <div id="searchClassic" className="dropdown-menu dropdown-unfold dropdown-menu-right left-0 mx-2" aria-labelledby="searchClassicInvoker">
               <form className="js-focus-state input-group px-3">
                 <input className="form-control" type="search" placeholder="Search Product" />
                 <div className="input-group-append">
-                  <button className="btn btn-primary px-3" type="button"><i className="font-size-18 ec ec-search" /></button>
+                  <button className="btn btn-primary px-3" type="button">
+                    <i className="font-size-18 icon-search" />
+                  </button>
                 </div>
               </form>
             </div>
             {/* End Input */}
           </li>
+          
           {/* End Search */}
           <li className="col d-none d-xl-block">
             <a href="../shop/compare.html" className="text-gray-90" data-toggle="tooltip" data-placement="top" title="Compare">

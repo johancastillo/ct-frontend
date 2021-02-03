@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 // Pages
 import Home from './pages/home/Home';
@@ -8,31 +8,31 @@ import Admin from './admin/admin-home/Admin';
 import Header from './components/header/Header';
 import AcountSidebar from './components/acount-sidebar/AcountSidebar';
 import Products from './pages/products/Products';
+import AboutUs from './pages/about-us/AboutUS';
+import ContactUs from './pages/contact-us/ContactUs';
+import ProductDetails from './pages/single-product/SingleProduct';
+import Favorites from './pages/favorites/Favorites';
 
 
-function App() {
+const App = () => {
   return (
-    <>
-      <Router>
-        <Header />
-        <AcountSidebar />
+    <Router>
+      <Header />
+      <AcountSidebar />
 
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/admin" component={Admin} />
-          <Route exact path="/products" component={Products} />
-          <Route exact path="/about-us">
-            <h1>About us</h1>
-          </Route>
-          <Route exact path="/contact-us">
-            <h1>Contact Us</h1>
-          </Route>
-          <Route component={PageNotFound} />
-        </Switch>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/products" component={Products} />
+        <Route exact path="/favorites" component={Favorites} />
+        <Route exact path="/product-details" component={ProductDetails} />
+        <Route exact path="/about-us" component={AboutUs} />
+        <Route exact path="/admin" component={Admin} />
+        <Route exact path="/contact-us" component={ContactUs} />
+        <Route component={PageNotFound} />
+      </Switch>
 
-      </Router>
-    </>
-  );
+    </Router>
+  )
 }
 
 export default App;
