@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link } from 'wouter'
 
 
 const HeaderIcons = () => {
@@ -31,19 +31,19 @@ const HeaderIcons = () => {
   
 
           <li className="col d-none d-xl-block">
-            <Link to="/favoritos" className="text-gray-90" data-toggle="tooltip" data-placement="top" title="Favoritos">
+            <Link href="/favoritos" className="text-gray-90" data-toggle="tooltip" data-placement="top" title="Favoritos">
               <i className="font-size-22 icon-heart-void" />
             </Link>
           </li>
 
           <li className="col d-xl-none px-2 px-sm-3">
-            <Link to="/cuenta" className="text-gray-90" data-toggle="tooltip" data-placement="top" title="Mi cuenta">
+            <Link href="/cuenta" className="text-gray-90" data-toggle="tooltip" data-placement="top" title="Mi cuenta">
               <i className="font-size-22 icon-user" />
             </Link>
           </li>
 
           <li className="col pr-xl-0 px-2 px-sm-3 d-xl-none">
-            <Link to="/" className="text-gray-90 position-relative d-flex " data-toggle="tooltip" data-placement="top" title="Carrito">
+            <Link href="/" className="text-gray-90 position-relative d-flex " data-toggle="tooltip" data-placement="top" title="Carrito">
               <i className="font-size-22 icon-cart" />
               <span className="bg-lg-down-black width-22 height-22 bg-primary position-absolute d-flex align-items-center justify-content-center rounded-circle left-12 top-8 font-weight-bold font-size-12">2</span>
               <span className="d-none d-xl-block font-weight-bold font-size-16 text-gray-90 ml-3">

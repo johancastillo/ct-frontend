@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { Link } from 'wouter'
 
 const starsValidator: any = {
   0: { 1: "icon-star-void", 2: "icon-star-void", 3: "icon-star-void", 4: "icon-star-void", 5: "icon-star-void" },
@@ -22,7 +22,7 @@ const ProductCard = ({ productID, title, image, stars, category, price, brand, d
   return (
     <div className="card" style={{ width: '100%', border: '2px solid #e7eaf3;' }}>
 
-      <Link to="/product-details" style={{ background: '#F8F8F8' }}>
+      <Link href="/product-details" style={{ background: '#F8F8F8' }}>
         <img src={image} className="card-img-top" alt="..." />
       </Link>
       <div className="card-body p-0">

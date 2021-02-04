@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Route, Link } from 'wouter';
 
 // Pages
 import Home from './pages/home/Home';
@@ -17,23 +17,25 @@ import HomeTwo from './pages/home-two/HomeTwo';
 
 const App = () => {
   return (
-    <Router>
+    <>
       <Header />
       <AcountSidebar />
 
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/home" component={HomeTwo} />
-        <Route exact path="/products" component={Products} />
-        <Route exact path="/favoritos" component={Favorites} />
-        <Route exact path="/product-details" component={ProductDetails} />
-        <Route exact path="/about-us" component={AboutUs} />
-        <Route exact path="/ct-admin" component={Admin} />
-        <Route exact path="/contact-us" component={ContactUs} />
-        <Route component={PageNotFound} />
-      </Switch>
+      <Link href="/">
+        <a>Home</a>
+      </Link>
 
-    </Router>
+      <Route path="/" component={Home} />
+      <Route path="/home" component={HomeTwo} />
+      <Route path="/products" component={Products} />
+      <Route path="/favoritos" component={Favorites} />
+      <Route path="/product-details" component={ProductDetails} />
+      <Route path="/about-us" component={AboutUs} />
+      <Route path="/ct-admin" component={Admin} />
+      <Route path="/contact-us" component={ContactUs} />
+      <Route component={PageNotFound} />
+
+    </>
   )
 }
 

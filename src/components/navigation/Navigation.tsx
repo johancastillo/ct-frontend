@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg'
-import {Link} from 'react-router-dom'
+import {Link} from 'wouter'
 import HeaderSidebar from '../header-sidebar/HeaderSidebar';
 import SearchBar from '../search-bar/SearchBar';
 import HeaderIcons from '../header-icons/HeaderIcons';
@@ -17,7 +17,7 @@ const Navigation = () => {
             <nav className="navbar navbar-expand u-header__navbar py-0 justify-content-xl-between max-width-270 min-width-270">
               
               {/* Logo */}
-              <Link to="/" className="order-1 order-xl-0 navbar-brand u-header__navbar-brand u-header__navbar-brand-center" aria-label="Electro">
+              <Link href="/" className="order-1 order-xl-0 navbar-brand u-header__navbar-brand u-header__navbar-brand-center" aria-label="Electro">
                 <img src={logo} alt="logo" />
               </Link>
               {/* End Logo */}

@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from './logo.svg'
-import {Link} from 'react-router-dom'
+import {Link} from 'wouter'
 
 const HeaderSidebar = () => {
   return (
@@ -30,7 +30,7 @@ const HeaderSidebar = () => {
 
                   {/* Value of the Day */}
                   <li>
-                    <Link to="/" className="u-header-collapse__nav-link font-weight-bold">
+                    <Link href="/" className="u-header-collapse__nav-link font-weight-bold">
                       Value of the Day
                     </Link>
                   </li>
@@ -38,7 +38,7 @@ const HeaderSidebar = () => {
 
                   {/* Top 100 Offers */}
                   <li>
-                    <Link to="/" className="u-header-collapse__nav-link font-weight-bold">
+                    <Link href="/" className="u-header-collapse__nav-link font-weight-bold">
                       Top 100 Offers
                     </Link>
                   </li>
@@ -46,7 +46,7 @@ const HeaderSidebar = () => {
 
                   {/* New Arrivals */}
                   <li>
-                    <Link to="/" className="u-header-collapse__nav-link font-weight-bold">
+                    <Link href="/" className="u-header-collapse__nav-link font-weight-bold">
                       New Arrivals
                     </Link>
                   </li>
@@ -62,19 +62,19 @@ const HeaderSidebar = () => {
                     <div id="headerSidebarComputersCollapse" className="collapse" data-parent="#headerSidebarContent">
                       <ul className="u-header-collapse__nav-list">
                         <li>
-                            <Link to="/" className="u-header-collapse__submenu-nav-link">
+                            <Link href="/" className="u-header-collapse__submenu-nav-link">
                               Home
                             </Link>
                         </li>
 
                         <li>
-                            <Link to="/home" className="u-header-collapse__submenu-nav-link">
+                            <Link href="/home" className="u-header-collapse__submenu-nav-link">
                               Home Two
                             </Link>
                         </li>
 
                         <li>
-                            <Link to="/products" className="u-header-collapse__submenu-nav-link">
+                            <Link href="/products" className="u-header-collapse__submenu-nav-link">
                               Products
                             </Link>
                         </li>
