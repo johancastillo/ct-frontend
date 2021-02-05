@@ -1,9 +1,23 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import ProductCard from '../../components/product-card/ProductCard'
 import data from '../../data.json'
 
+import axios from 'axios'
+
 const Products = () => {
   const [products, setProducts] = useState(data)
+
+  useEffect(() => {
+    const url = "http://172.20.43.106:8085/api/anuncios"
+    
+    axios.get(url)
+    .then(
+      response => setProducts(response.data)
+    )
+    .catch(
+      err => console.log(err)
+    )
+  }, [])
 
   return (
     <div className="container mt-4">

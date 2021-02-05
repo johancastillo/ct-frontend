@@ -25,7 +25,9 @@ const ProductCard = ({ productID, title, image, stars, category, price, brand, d
     <div className="card product">
 
       <Link href="/product-details" style={{ background: '#F8F8F8' }}>
-        <img src={image} className="card-img-top" alt="..." />
+        <a>
+          <img src={image} className="card-img-top" alt="..." />
+        </a>
       </Link>
       <div className="card-body p-0">
         <div className="p-4">
@@ -72,8 +74,8 @@ const ProductCard = ({ productID, title, image, stars, category, price, brand, d
           <div className="price">
 
             <button type="button" className="btn btn-outline-dark">
-              <span className="icon-cart" style={{fontSize: '20px'}}></span>
-              <span className="price" style={{ marginLeft: '8px' }}>{`$${price} USD`} </span>
+              <span className="icon-cart" style={{ fontSize: '20px' }}></span>
+              <span className="price" style={{ marginLeft: '8px' }}>{`$${price}`} </span>
             </button>
 
           </div>
