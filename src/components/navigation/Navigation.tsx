@@ -1,13 +1,13 @@
 import React from 'react';
 import logo from './logo.svg'
-import {Link} from 'wouter'
+import { Link } from 'wouter'
 import HeaderSidebar from '../header-sidebar/HeaderSidebar';
 import SearchBar from '../search-bar/SearchBar';
 import HeaderIcons from '../header-icons/HeaderIcons';
 
 const Navigation = () => {
-    return ( 
-      <div className="py-2 py-xl-5 bg-primary-down-lg">
+  return (
+    <div className="py-2 py-xl-5 bg-primary-down-lg">
       <div className="container my-0dot5 my-xl-0">
         <div className="row align-items-center">
           {/* Logo-offcanvas-menu */}
@@ -15,10 +15,12 @@ const Navigation = () => {
 
             {/* Nav */}
             <nav className="navbar navbar-expand u-header__navbar py-0 justify-content-xl-between max-width-270 min-width-270">
-              
+
               {/* Logo */}
-              <Link href="/" className="order-1 order-xl-0 navbar-brand u-header__navbar-brand u-header__navbar-brand-center" aria-label="Electro">
-                <img src={logo} alt="logo" />
+              <Link href="/">
+                <a className="order-1 order-xl-0 navbar-brand u-header__navbar-brand u-header__navbar-brand-center" aria-label="Electro">
+                  <img src={logo} alt="logo" />
+                </a>
               </Link>
               {/* End Logo */}
 
@@ -29,10 +31,10 @@ const Navigation = () => {
                 </span>
               </button>
               {/* End Fullscreen Toggle Button */}
-              
+
             </nav>
             {/* End Nav */}
-            
+
             {/* ========== HEADER SIDEBAR ========== */}
             <HeaderSidebar />
             {/* ========== END HEADER SIDEBAR ========== */}
@@ -50,7 +52,7 @@ const Navigation = () => {
         </div>
       </div>
     </div>
-    )
+  )
 }
 
 export default Navigation;

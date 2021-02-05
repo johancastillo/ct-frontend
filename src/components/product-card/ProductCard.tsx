@@ -1,3 +1,5 @@
+
+
 import { Link } from 'wouter'
 
 const starsValidator: any = {
@@ -20,7 +22,7 @@ const ProductCard = ({ productID, title, image, stars, category, price, brand, d
   const boxStars = starsValidator[stars]
 
   return (
-    <div className="card" style={{ width: '100%', border: '2px solid #e7eaf3;' }}>
+    <div className="card product">
 
       <Link href="/product-details" style={{ background: '#F8F8F8' }}>
         <img src={image} className="card-img-top" alt="..." />

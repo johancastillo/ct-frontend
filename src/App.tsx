@@ -21,10 +21,6 @@ const App = () => {
       <Header />
       <AcountSidebar />
 
-      <Link href="/">
-        <a>Home</a>
-      </Link>
-
       <Route path="/" component={Home} />
       <Route path="/home" component={HomeTwo} />
       <Route path="/products" component={Products} />
