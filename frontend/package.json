@@ -13,6 +13,7 @@
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
     "serve": "^11.3.2",
+    "suneditor-react": "^2.15.2",
     "typescript": "^4.0.3",
     "wouter": "^2.7.2"
   },
