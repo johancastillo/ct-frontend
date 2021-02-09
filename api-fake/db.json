@@ -5,10 +5,12 @@
       "title": "Vino espumante Prosecco la Marca",
       "price": 100,
       "price_ofert": 45,
+      "ofert_special": true,
       "discount": 20,
       "image": "https://d13lnhwm7sh4hi.cloudfront.net/wp-content/uploads/2019/10/21173833/085000017739_01-300x300.jpg",
       "in_stock": 10,
-      "alreday_sold": 4,
+      "initial_amount": 20,
+      "already_sold": 10,
       "date_limit": "27-07-2021"
     },
     {
@@ -19,7 +21,8 @@
       "discount": 20,
       "image": "https://d13lnhwm7sh4hi.cloudfront.net/wp-content/uploads/2019/10/21173833/085000017739_01-300x300.jpg",
       "in_stock": 10,
-      "alreday_sold": 4,
+      "initial_amount": 14,
+      "already_sold": 4,
       "date_limit": "27-07-2021"
     },
     {
@@ -30,7 +33,8 @@
       "discount": 20,
       "image": "https://d13lnhwm7sh4hi.cloudfront.net/wp-content/uploads/2019/10/21173833/085000017739_01-300x300.jpg",
       "in_stock": 10,
-      "alreday_sold": 4,
+      "initial_amount": 14,
+      "already_sold": 4,
       "date_limit": "27-07-2021"
     }
   ],
