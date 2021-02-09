@@ -1,0 +1,25 @@
+{
+  "oferts": [
+    {
+      "title": "Vino espumante Prosecco la Marca",
+      "price": 100,
+      "price_ofert": 45,
+      "discount": 20,
+      "image": "https://d13lnhwm7sh4hi.cloudfront.net/wp-content/uploads/2019/10/21173833/085000017739_01-300x300.jpg",
+      "time": 3000,
+      "in_stock": 10,
+      "alreday_sold": 4,
+      "date_limit": 
+    }
+  ],
+  "products": [
+    {
+      "title": "",
+      "image": "",
+      "description": "",
+      "stars": 4.5,
+      "price": 30,
+      "in_stock": 4
+    }
+  ]
+}
