@@ -1,15 +1,37 @@
 {
   "oferts": [
     {
+      "id": 1,
       "title": "Vino espumante Prosecco la Marca",
       "price": 100,
       "price_ofert": 45,
       "discount": 20,
       "image": "https://d13lnhwm7sh4hi.cloudfront.net/wp-content/uploads/2019/10/21173833/085000017739_01-300x300.jpg",
-      "time": 3000,
       "in_stock": 10,
       "alreday_sold": 4,
-      "date_limit": 
+      "date_limit": "27-07-2021"
+    },
+    {
+      "id": 2,
+      "title": "Licuadora",
+      "price": 85,
+      "price_ofert": 45,
+      "discount": 20,
+      "image": "https://d13lnhwm7sh4hi.cloudfront.net/wp-content/uploads/2019/10/21173833/085000017739_01-300x300.jpg",
+      "in_stock": 10,
+      "alreday_sold": 4,
+      "date_limit": "27-07-2021"
+    },
+    {
+      "id": 3,
+      "title": "PlayStation 4",
+      "price": 85,
+      "price_ofert": 45,
+      "discount": 20,
+      "image": "https://d13lnhwm7sh4hi.cloudfront.net/wp-content/uploads/2019/10/21173833/085000017739_01-300x300.jpg",
+      "in_stock": 10,
+      "alreday_sold": 4,
+      "date_limit": "27-07-2021"
     }
   ],
   "products": [

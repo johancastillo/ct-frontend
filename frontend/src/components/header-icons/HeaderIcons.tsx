@@ -45,7 +45,11 @@ const HeaderIcons = () => {
           <li className="col pr-xl-0 px-2 px-sm-3 d-xl-none">
             <Link href="/" className="text-gray-90 position-relative d-flex " data-toggle="tooltip" data-placement="top" title="Carrito">
               <i className="font-size-22 icon-cart" />
-              <span className="bg-lg-down-black width-22 height-22 bg-primary position-absolute d-flex align-items-center justify-content-center rounded-circle left-12 top-8 font-weight-bold font-size-12">2</span>
+
+              <span className="bg-lg-down-black width-22 height-22 bg-primary position-absolute d-flex align-items-center justify-content-center rounded-circle left-12 font-weight-bold font-size-12" style={{top: '-15.50038px'}}>
+                4
+              </span>
+
               <span className="d-none d-xl-block font-weight-bold font-size-16 text-gray-90 ml-3">
                 $1785.00
               </span>
@@ -55,7 +59,9 @@ const HeaderIcons = () => {
           <li className="col pr-xl-0 px-2 px-sm-3 d-none d-xl-block">
             <div id="basicDropdownHoverInvoker" className="text-gray-90 position-relative d-flex " data-toggle="tooltip" data-placement="top" title="Carrito" aria-controls="basicDropdownHover" aria-haspopup="true" aria-expanded="false" data-unfold-event="click" data-unfold-target="#basicDropdownHover" data-unfold-type="css-animation" data-unfold-duration={300} data-unfold-delay={300} data-unfold-hide-on-scroll="true" data-unfold-animation-in="slideInUp" data-unfold-animation-out="fadeOut">
               <i className="font-size-22 icon-cart" />
-              <span className="bg-lg-down-black width-22 height-22 bg-primary position-absolute d-flex align-items-center justify-content-center rounded-circle left-12 top-8 font-weight-bold font-size-12">2</span>
+              <span className="bg-lg-down-black width-22 height-22 bg-primary position-absolute d-flex align-items-center justify-content-center rounded-circle left-12 font-weight-bold font-size-12" style={{top: '-15.50038px'}}>
+                2
+              </span>
               
               <span className="d-none d-xl-block font-weight-bold font-size-16 text-gray-90 ml-3">
                 $1785.00

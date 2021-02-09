@@ -10,7 +10,7 @@ const RowBanner = () => {
           <a href="../shop/shop.html" className="d-black text-gray-90">
             <div className="min-height-132 py-1 d-flex bg-gray-1 align-items-center">
               <div className="col-6 col-xl-5 col-wd-6 pr-0">
-                <img className="img-fluid p-5" src={"https://image-galery.herokuapp.com/static/media/3.f7d33c03.webp"} alt="Image Description" />
+                <img className="img-fluid p-5" src={"https://d13lnhwm7sh4hi.cloudfront.net/wp-content/uploads/2020/12/09170049/boton-tarjeta-efectivo.png"} alt="Image Description" />
               </div>
               <div className="col-6 col-xl-7 col-wd-6">
                 <div className="mb-2 pb-1 font-size-18 font-weight-light text-ls-n1 text-lh-23">
@@ -31,7 +31,7 @@ const RowBanner = () => {
           <a href="../shop/shop.html" className="d-black text-gray-90">
             <div className="min-height-132 py-1 d-flex bg-gray-1 align-items-center">
               <div className="col-6 col-xl-5 col-wd-6 pr-0">
-                <img className="img-fluid p-5" src={"https://image-galery.herokuapp.com/static/media/5.f9cf23d6.png"} alt="Image Description" />
+                <img className="img-fluid p-5" src={"https://d13lnhwm7sh4hi.cloudfront.net/wp-content/uploads/2020/12/09170423/boton-promos-licores.png"} alt="Image Description" />
               </div>
               <div className="col-6 col-xl-7 col-wd-6">
                 <div className="mb-2 pb-1 font-size-18 font-weight-light text-ls-n1 text-lh-23">

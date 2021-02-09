@@ -11,6 +11,7 @@ const MainContent = () => {
   {/* Slider Section */}
   <Slider />
   {/* End Slider Section */}
+  
 
   <div className="container">
     {/* Banner */}

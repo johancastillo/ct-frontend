@@ -5,88 +5,32 @@ import React from 'react'
 
 const Slider = () => {
   return (
-    <div className="mb-5">
-    <div className="bg-img-hero" style={{ backgroundImage: 'url(https://image-galery.herokuapp.com/static/media/banner-principal.59bd0f20.png)' }}>
-      <div className="container min-height-420 overflow-hidden">
-        <div className="js-slick-carousel u-slick" data-pagi-classes="text-center position-absolute right-0 bottom-0 left-0 u-slick__pagination u-slick__pagination--long justify-content-start mb-3 mb-md-4 offset-xl-3 pl-2 pb-1">
-          <div className="js-slide bg-img-hero-center">
-            <div className="row min-height-420 py-7 py-md-0">
-              <div className="offset-xl-3 col-xl-4 col-6 mt-md-8">
-                <h1 className="font-size-64 text-lh-57 font-weight-light text-white" data-scs-animation-in="fadeInUp">
-                  THE NEW <span className="d-block font-size-55">STANDARD</span>
-                </h1>
-                <h6 className="font-size-15 font-weight-bold mb-3 text-white" data-scs-animation-in="fadeInUp" data-scs-animation-delay={200}>
-                  UNDER FAVORABLE SMARTWATCHES
-                </h6>
-                <div className="mb-4" data-scs-animation-in="fadeInUp" data-scs-animation-delay={300}>
-                  <span className="font-size-13 text-white">FROM</span>
-                  <div className="font-size-50 font-weight-bold text-lh-45 text-white">
-                    <sup>$</sup>749<sup>99</sup>
-                  </div>
-                </div>
-                <a href="../shop/single-product-fullwidth.html" className="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-16" data-scs-animation-in="fadeInUp" data-scs-animation-delay={400}>
-                  Start Buying
-                </a>
-              </div>
-              <div className="col-xl-5 col-6  d-flex align-items-center" data-scs-animation-in="zoomIn" data-scs-animation-delay={500}>
-                <img className="img-fluid" src={"https://image-galery.herokuapp.com/static/media/2.e07daa38.webp"} alt="Image Description" />
-              </div>
-            </div>
-          </div>
-
-          <div className="js-slide bg-img-hero-center" data-animation-delay={0}>
-            <div className="row min-height-420 py-7 py-md-0">
-              <div className="offset-xl-3 col-xl-4 col-6 mt-md-8">
-                <h1 className="font-size-64 text-lh-57 font-weight-light text-white" data-scs-animation-in="fadeInUp">
-                  THE NEW <span className="d-block font-size-55">STANDARD</span>
-                </h1>
-                <h6 className="font-size-15 font-weight-bold mb-3 text-white" data-scs-animation-in="fadeInUp" data-scs-animation-delay={200}>
-                  UNDER FAVORABLE SMARTWATCHES
-                </h6>
-                <div className="mb-4" data-scs-animation-in="fadeInUp" data-scs-animation-delay={300}>
-                  <span className="font-size-13 text-white">FROM</span>
-                  <div className="font-size-50 font-weight-bold text-lh-45 text-white">
-                    <sup>$</sup>749<sup>99</sup>
-                  </div>
-                </div>
-                <a href="../shop/single-product-fullwidth.html" className="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-16" data-scs-animation-in="fadeInUp" data-scs-animation-delay={400}>
-                  Start Buying
-                </a>
-              </div>
-              <div className="col-xl-5 col-6  d-flex align-items-center" data-scs-animation-in="fadeInUp" data-scs-animation-delay={500}>
-                <img className="img-fluid" src={"https://image-galery.herokuapp.com/static/media/1.691fd698.webp"} alt="Image Description" />
-              </div>
-            </div>
-          </div>
-
-          <div className="js-slide bg-img-hero-center" data-animation-delay={0}>
-            <div className="row min-height-420 py-7 py-md-0">
-              <div className="offset-xl-3 col-xl-4 col-6 mt-md-8">
-                <h1 className="font-size-64 text-lh-57 font-weight-light text-white" data-scs-animation-in="fadeInUp">
-                  THE NEW <span className="d-block font-size-55">STANDARD</span>
-                </h1>
-                <h6 className="font-size-15 font-weight-bold mb-3 text-white" data-scs-animation-in="fadeInUp" data-scs-animation-delay={200}>
-                  UNDER FAVORABLE SMARTWATCHES
-                </h6>
-                <div className="mb-4" data-scs-animation-in="fadeInUp" data-scs-animation-delay={300}>
-                  <span className="font-size-13 text-white">FROM</span>
-                  <div className="font-size-50 font-weight-bold text-lh-45 text-white">
-                    <sup>$</sup>749<sup>99</sup>
-                  </div>
-                </div>
-                <a href="../shop/single-product-fullwidth.html" className="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-15" data-scs-animation-in="fadeInUp" data-scs-animation-delay={400}>
-                  Start Buying
-                </a>
-              </div>
-              <div className="col-xl-5 col-6  d-flex align-items-center" data-scs-animation-in="fadeInRight" data-scs-animation-delay={500}>
-                <img className="img-fluid" src={"https://image-galery.herokuapp.com/static/media/3.f7d33c03.webp"} alt="Image Description" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div className="mb-5 container">
+      <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+  <ol className="carousel-indicators">
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+  </ol>
+  <div className="carousel-inner">
+    <div className="carousel-item active">
+      <img src="https://d13lnhwm7sh4hi.cloudfront.net/wp-content/uploads/2021/01/08143805/banner4tarjetaefectivo1400x412.png" className="d-block w-100" alt="..." />
+    </div>
+    <div className="carousel-item">
+      <img src="https://d13lnhwm7sh4hi.cloudfront.net/wp-content/uploads/2021/01/08141759/banner1tarjetaefectivo1400x412.png" className="d-block w-100" alt="..." />
+    </div>
+    <div className="carousel-item">
+      <img src="https://d13lnhwm7sh4hi.cloudfront.net/wp-content/uploads/2021/01/08140558/banner2tarjetaefectivo1400x412.png" className="d-block w-100" alt="..." />
     </div>
   </div>
+  <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+  </a>
+  <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+  </a>
+</div>
+    </div>
   )
 }
 
