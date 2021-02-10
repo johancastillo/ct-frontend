@@ -47,5 +47,79 @@
       "price": 30,
       "in_stock": 4
     }
+  ],
+  "for_you": [
+    {
+      "id": 1,
+      "title": "",
+      "image": "",
+      "description": "",
+      "stars": 4.5,
+      "price": 30,
+      "in_stock": 4
+    },
+    {
+      "id": 2,
+      "title": "",
+      "image": "",
+      "description": "",
+      "stars": 4.5,
+      "price": 30,
+      "in_stock": 4
+    },
+    {
+      "id": 3,
+      "title": "",
+      "image": "",
+      "description": "",
+      "stars": 4.5,
+      "price": 30,
+      "in_stock": 4
+    },
+    {
+      "id": 4,
+      "title": "",
+      "image": "",
+      "description": "",
+      "stars": 4.5,
+      "price": 30,
+      "in_stock": 4
+    },
+    {
+      "id": 5,
+      "title": "",
+      "image": "",
+      "description": "",
+      "stars": 4.5,
+      "price": 30,
+      "in_stock": 4
+    },
+    {
+      "id": 6,
+      "title": "",
+      "image": "",
+      "description": "",
+      "stars": 4.5,
+      "price": 30,
+      "in_stock": 4
+    },
+    {
+      "id": 7,
+      "title": "",
+      "image": "",
+      "description": "",
+      "stars": 4.5,
+      "price": 30,
+      "in_stock": 4
+    },
+    {
+      "id": 8,
+      "title": "",
+      "image": "",
+      "description": "",
+      "stars": 4.5,
+      "price": 30,
+      "in_stock": 4
+    }
   ]
 }
