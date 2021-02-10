@@ -11,7 +11,7 @@
       "in_stock": 10,
       "initial_amount": 20,
       "already_sold": 10,
-      "date_limit": "27-07-2021"
+      "date_limit": "Feb 14 2021 12:45:41 GMT-0400"
     },
     {
       "id": 2,
@@ -23,7 +23,7 @@
       "in_stock": 10,
       "initial_amount": 14,
       "already_sold": 4,
-      "date_limit": "27-07-2021"
+      "date_limit": "Feb 10 2021 15:45:41 GMT-0400"
     },
     {
       "id": 3,
@@ -35,7 +35,7 @@
       "in_stock": 10,
       "initial_amount": 14,
       "already_sold": 4,
-      "date_limit": "27-07-2021"
+      "date_limit": "Feb 10 2021 15:45:41 GMT-0400"
     }
   ],
   "products": [
