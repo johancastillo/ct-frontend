@@ -17,7 +17,7 @@ const starsValidator: any = {
 }
 
 
-const ProductCard = ({ productID, title, image, stars, category, price, brand, description }: any) => {
+const ProductCard = ({ productID, title, image, stars, category, price, brand, description, footer }: any) => {
 
   const boxStars = starsValidator[stars]
 
@@ -66,7 +66,10 @@ const ProductCard = ({ productID, title, image, stars, category, price, brand, d
             {description}
           </p>
         </div>
-        <div className="card-footer d-flex justify-content-between align-items-center">
+
+        {
+          footer ? 
+          <div className="card-footer d-flex justify-content-between align-items-center">
           <div className="">
             <span style={{ marginLeft: '5px' }}>{brand}</span>
           </div>
@@ -80,6 +83,9 @@ const ProductCard = ({ productID, title, image, stars, category, price, brand, d
 
           </div>
         </div>
+        :
+        ""
+        }
 
       </div>
     </div>
