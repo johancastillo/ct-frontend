@@ -1,9 +1,9 @@
 import React, { useContext } from 'react'
-import AppContext from '../../context/AppContext'
+import AppContext from '../context/AppContext'
 // Components
-import Navigation from '../navigation/Navigation'
-import SecondaryMenu from '../secondary-menu/SecondaryMenu'
-import TopBar from '../top-bar/TopBar'
+import Navigation from './Navigation'
+import SecondaryMenu from './SecondaryMenu'
+import TopBar from './TopBar'
 
 const Header = () => {
     const {subMenu} = useContext(AppContext)

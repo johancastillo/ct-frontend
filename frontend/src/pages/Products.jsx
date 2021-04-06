@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
-import ProductCard from '../../components/product-card/ProductCard'
-import data from '../../data.json'
+import ProductCard from '../components/ProductCard'
+import data from '../data.json'
 
 import axios from 'axios'
 

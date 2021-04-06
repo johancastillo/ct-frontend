@@ -38,6 +38,7 @@
       "date_limit": "Feb 10 2021 15:45:41 GMT-0400"
     }
   ],
+
   "products": [
     {
       "title": "",
@@ -48,10 +49,11 @@
       "in_stock": 4
     }
   ],
+
   "for_you": [
     {
       "id": 1,
-      "title": "",
+      "title": "3 pack Ron Añejo Cacique",
       "image": "",
       "description": "",
       "stars": 4.5,
@@ -93,27 +95,11 @@
       "stars": 4.5,
       "price": 30,
       "in_stock": 4
-    },
+    }
+  ],
+  "audio": [
     {
-      "id": 6,
-      "title": "",
-      "image": "",
-      "description": "",
-      "stars": 4.5,
-      "price": 30,
-      "in_stock": 4
-    },
-    {
-      "id": 7,
-      "title": "",
-      "image": "",
-      "description": "",
-      "stars": 4.5,
-      "price": 30,
-      "in_stock": 4
-    },
-    {
-      "id": 8,
+      "id": 1,
       "title": "",
       "image": "",
       "description": "",

@@ -4,16 +4,16 @@ import makeMatcher from "wouter/matcher";
 import { pathToRegexp } from "path-to-regexp";
 
 // Pages
-import Home from './pages/home/Home';
-import PageNotFound from './pages/page-not-found/PageNotFound';
-import Header from './components/header/Header';
-import AcountSidebar from './components/acount-sidebar/AcountSidebar';
-import Products from './pages/products/Products';
-import AboutUs from './pages/about-us/AboutUS';
-import ContactUs from './pages/contact-us/ContactUs';
-import ProductDetails from './pages/single-product/SingleProduct';
-import Favorites from './pages/favorites/Favorites';
-import HomeTwo from './pages/home-two/HomeTwo';
+import Home from './pages/Home';
+import PageNotFound from './pages/PageNotFound';
+import Header from './components/Header';
+import AcountSidebar from './components/AcountSidebar';
+import Products from './pages/Products';
+import AboutUs from './pages/AboutUS';
+import ContactUs from './pages/ContactUs';
+import ProductDetails from './pages/SingleProduct';
+import Favorites from './pages/Favorites';
+import HomeTwo from './pages/HomeTwo';
 import AdminHome from './admin/admin-home/AdminHome';
 
 const customMatcher = makeMatcher((path) => {

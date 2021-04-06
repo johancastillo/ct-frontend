@@ -1,5 +1,6 @@
 
 
+import { useState } from 'react'
 import { Link } from 'wouter'
 
 const starsValidator: any = {
@@ -17,21 +18,28 @@ const starsValidator: any = {
 }
 
 
-const ProductCard = ({ productID, title, image, stars, category, price, brand, description, footer }: any) => {
-
+const ProductCard = ({ title, image, stars, category, price, brand, description, footer }: any) => {
+  const [like, setLike] = useState(false)
   const boxStars = starsValidator[stars]
+
+  const addFavorites = () => setLike(!like)
 
   return (
     <div className="card product">
 
       <Link href="/product-details" style={{ background: '#F8F8F8' }}>
         <a>
-          <img src={image} className="card-img-top" alt="..." />
+          <div>
+            <img src={image} className="card-img-top" alt="..." />
+          </div>
         </a>
       </Link>
       <div className="card-body p-0">
         <div className="p-4">
-          <h5 className="card-title">{title}</h5>
+
+          <h5 className="card-title">
+            {title}
+          </h5>
 
           <div className="d-flex justify-content-between">
             <div className="d-flex">
@@ -51,9 +59,10 @@ const ProductCard = ({ productID, title, image, stars, category, price, brand, d
               </span>
             </div>
 
-            <div>
-              <span className="icon-heart-void" style={{ fontSize: "22px" }}></span>
+            <div style={{ cursor: 'pointer' }} onClick={addFavorites}>
+              <span className={like ? "icon-heart-full" : "icon-heart-void"} style={{ fontSize: "22px", color: '#de4437' }}></span>
             </div>
+
           </div>
 
           <div className="mt-2">
@@ -68,23 +77,23 @@ const ProductCard = ({ productID, title, image, stars, category, price, brand, d
         </div>
 
         {
-          footer ? 
-          <div className="card-footer d-flex justify-content-between align-items-center">
-          <div className="">
-            <span style={{ marginLeft: '5px' }}>{brand}</span>
-          </div>
+          footer ?
+            <div className="card-footer d-flex justify-content-between align-items-center">
+              <div className="">
+                <span style={{ marginLeft: '5px' }}>{brand}</span>
+              </div>
 
-          <div className="price">
+              <div className="price">
 
-            <button type="button" className="btn btn-outline-dark">
-              <span className="icon-cart" style={{ fontSize: '20px' }}></span>
-              <span className="price" style={{ marginLeft: '8px' }}>{`$${price}`} </span>
-            </button>
+                <button type="button" className="btn btn-outline-dark">
+                  <span className="icon-cart" style={{ fontSize: '20px' }}></span>
+                  <span className="price" style={{ marginLeft: '8px' }}>{`$${price}`} </span>
+                </button>
 
-          </div>
-        </div>
-        :
-        ""
+              </div>
+            </div>
+            :
+            ""
         }
 
       </div>
